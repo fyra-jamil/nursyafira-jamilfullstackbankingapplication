@@ -1,7 +1,7 @@
 var express = require('express');
 var app     = express();
 var cors    = require('cors');
-var dal     = require('./mongo_test.js');
+var dal     = require('./dal.js.js');
 const e = require('express');
 
 // used to serve static files from public directory
