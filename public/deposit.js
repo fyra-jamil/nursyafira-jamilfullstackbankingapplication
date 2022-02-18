@@ -67,7 +67,7 @@ function DepositForm(props){
   if (EmailSess != null)
   {
   return(<>
-  <img src="/public/image/DepositMoneyHeader.png" className="img-fluid" alt="Responsive image"/>
+  <img src="/image/DepositMoneyHeader.png" className="img-fluid" alt="Responsive image"/>
   <br/>
     <h1>Hi {localStorage.getItem('EmailUser')}!</h1>
     <h2>Balance : ${localStorage.getItem('BalanceUser')}!</h2>

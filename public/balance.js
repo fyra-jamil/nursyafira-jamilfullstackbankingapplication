@@ -61,7 +61,7 @@ function BalanceForm(props){
   if (EmailSess != null)
   {
   return (<>
-  <img src="/public/image/WelcomeHeader.png" className="img-fluid" alt="Responsive image"/>
+  <img src="/image/WelcomeHeader.png" className="img-fluid" alt="Responsive image"/>
   <h2>Balance : ${localStorage.getItem('BalanceUser')}!</h2>
   <button type="submit" 
       className="btn btn-light" 
