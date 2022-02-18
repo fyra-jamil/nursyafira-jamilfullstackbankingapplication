@@ -98,6 +98,10 @@ app.get('/account/all', function (req, res) {
     });
 });
 
-var port = 8080;
+/*var port = 8080;
 app.listen(port);
-console.log('Running on port: ' + port);
+console.log('Running on port: ' + port);*/
+
+app.listen(process.env.PORT || 3001, '0.0.0.0', () => {
+  console.log("Server is running.");
+});
