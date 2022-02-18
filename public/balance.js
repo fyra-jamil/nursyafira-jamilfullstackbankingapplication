@@ -65,7 +65,7 @@ function BalanceForm(props){
   <h2>Balance : ${localStorage.getItem('BalanceUser')}!</h2>
   <button type="submit" 
       className="btn btn-light" 
-      onClick={cleardata}>Clear Data</button>
+      onClick={cleardata}>Sign Out</button>
   </>);
   }
   else
